@@ -10,8 +10,7 @@ bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 
 # Автоматически правильный HTTPS-адрес от Render
-WEBAPP_URL = f"https://{request.host}"
-
+WEBAPP_URL = "https://bulup-bot.onrender.com"
 HTML = """<!DOCTYPE html>
 <html lang="ru">
 <head>
